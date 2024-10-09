@@ -5,12 +5,18 @@ public class PrinterApp {
         String creater = "Darshana";
         System.out.println(creater);
 
-        int number1 = 5;
-        int number2 = 2;
+        int number1 = 24;
+        int number2 = 12;
         int multiplication = number1 * number2;
+        double division = number1 / number2;
+        int sum = number1 + number2;
+        int subs = number1 - number2;
 
         System.out.println("The value of number1 is " + number1);
         System.out.println("The value of number2 is " + number2);
         System.out.println(multiplication);
+        System.out.println(division);
+        System.out.println(sum);
+        System.out.println(subs);
     }
 }
